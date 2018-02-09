@@ -1,0 +1,17 @@
+<h1>Showing selected employee</h1>
+<p>
+Name: <%= @employee.name %>
+</p>
+<p>
+Username: <%= @employee.username %>
+</p>
+<p>
+Id Card: <%= @employee.id_card %>
+</p>
+<p>
+Email: <%= @employee.email %>
+</p>
+<%= link_to 'Edit', edit_employee_path(@employee) %>
+<%= link_to 'Show', employee_path(@employee) %>
+<br>
+<%= link_to "Back to employees listing", employees_path %>
