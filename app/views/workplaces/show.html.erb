@@ -1,0 +1,11 @@
+<h1>Showing selected workplace</h1>
+<p>
+Name of the work place: <%= @workplace.name %>
+</p>
+<p>
+Description: <%= @workplace.description %>
+</p>
+<%= link_to 'Edit', edit_workplace_path(@workplace) %>
+<%= link_to 'Show', workplace_path(@workplace) %>
+<br>
+<%= link_to "Back to workplaces listing", workplaces_path %>

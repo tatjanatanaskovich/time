@@ -6,7 +6,7 @@ Rails.application.routes.draw do
   
   #root '/login'
   resources :employees
-  
+  resources :workplaces
   #get 'signup', to: 'users#new'
   #resources :users, except: [:new]
   
